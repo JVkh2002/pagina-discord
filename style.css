@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Luckiest Guy;
+    src: url(assets/fonts/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+header {
+    position: absolute;
+    width: 428px;
+    height: 506px;
+    left: 0px;
+    top: -1px;
+
+    background: url(assets/images/Header_Background.svg);
+}
+
+header > .header__content > h1 {
+    width: 278px;
+    height: 64px;
+
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    margin-left: 24px;
+    margin-top: 70px;
+}
+
+header > .header__content > p {
+    width: 381px;
+    height: 132px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    margin: 24px;
+}
+
+header > .header__content > .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 381px;
+    height: 122px;
+}
+
+header > .header__content > .buttons > .windows {
+    width: 381px;
+    height: 54px;
+    
+    background: #FFFFFF;
+    border-radius: 28px;
+
+    margin: 24px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-style: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #23272A;
+}
+
+header > .header__content > .buttons > .navegador {
+    width: 381px;
+    height: 52px;
+    left: 0px;
+    top: 70px;
+    
+    background: #23272A;
+    border-radius: 28px;
+    border-style: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    margin: 0 23px 0px 24px;
+    
+    color: #FFFFFF;
+}
+
+.section__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 27px;
+    
+    position: absolute;
+    width: 428px;
+    height: 573px;
+    left: 0px;
+    top: 505px;
+}
+
+.section__1 > h2 {
+    width: 370px;
+    height: 99px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #23272A;
+}
+
+.section__1 > p {
+    width: 378px;
+    height: 88px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #23272A;
+}
+
+.section__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 27px;
+    
+    position: absolute;
+    width: 428px;
+    height: 507px;
+    left: 1px;
+    top: 1078px;
+    
+    background: #F6F6F6;
+
+    
+}
+
+.section__2 > .svg {
+
+    width: 379px;
+    height: 252px;
+
+    background: url(assets/images/section2.svg);
+}
+
+.section__2 > h2 {
+    width: 379px;
+    height: 33px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #23272A;
+}
+
+.section__2 > p {
+    width: 378px;
+    height: 88px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #23272A;
+}
+
+.section__3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 27px;
+    
+    position: absolute;
+    width: 428px;
+    height: 507px;
+    left: 1px;
+    top: 1585px;
+}
+
+.section__3 > .svg2 {
+
+    width: 379px;
+    height: 252px;
+
+    background: url(assets/images/section3.svg);
+}
+
+.section__3 > h2 {
+    width: 373px;
+    height: 33px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    
+    
+    color: #23272A;
+}
+
+.section__3 > p {
+    width: 378px;
+    height: 88px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #23272A;
+}
+
+.section__4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 27px;
+    
+    position: absolute;
+    width: 428px;
+    height: 560px;
+    left: 1px;
+    top: 2092px;
+    
+    background: #F6F6F6;
+}
+
+.section__4 > h1 {
+    width: 376px;
+    height: 64px;
+    
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    
+    color: #23272A;
+}
+
+.section__4 > p {
+    width: 378px;
+    height: 110px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #23272A;
+    
+}
+
+.section__4 > .svg3 {
+    width: 379px;
+    height: 252px;
+
+    background: url(assets/images/section4.svg);
+}
+
+footer {
+    position: absolute;
+    width: 429px;
+    height: 140px;
+    left: 0px;
+    top: 2652px;
+    
+    background: #23272A;
+}
+
+footer > svg {
+    position: absolute;
+    width: 162px;
+    height: 45px;
+    left: 133px;
+    top: 44px;
+}
